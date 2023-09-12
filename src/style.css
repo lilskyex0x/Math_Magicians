@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right, #655dbb, #bface2);
+}
+
+.calc__grid {
+  display: grid;
+  margin-top: 6rem;
+  justify-content: center;
+}
+
+.calc__btn {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(4, 6rem);
+  grid-template-rows: repeat(5, 3rem);
+}
+
+.calc__btn > button {
+  cursor: pointer;
+  font-size: 1rem;
+  border: 1px solid white;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.65);
+  transition: 0.2s ease-in-out;
+}
+
+.calc__btn > button:hover,
+.calc__btn > button:focus {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.calc__btn .ops__btn {
+  background-color: #655dbb;
+}
+
+.span__two {
+  grid-column: span 2;
+}
+
+.output {
+  grid-column: 1 / -1;
+  background-color: rgba(0, 0, 0, 0.65);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-around;
+  padding: 0.75rem;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.output .previous__num {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 1.5rem;
+}
+
+.output .current__num {
+  color: white;
+  font-size: 2.5rem;
+}
