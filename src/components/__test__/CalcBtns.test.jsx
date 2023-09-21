@@ -19,7 +19,7 @@ describe("CalcBtns", () => {
     const oneButton = getByText('1');
     const plusButton = getByText('+');
     const equalsButton = getByText('=');
-    const currentNumElement = container.querySelector('.current__num'); // Assuming '0' is the initial value.
+    const currentNumElement = container.querySelector('.current__num');
 
     fireEvent.click(oneButton);
     fireEvent.click(plusButton);
