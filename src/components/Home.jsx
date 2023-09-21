@@ -1,4 +1,3 @@
-/* eslint-disable */
 import '../style.css';
 
 function Home() {
