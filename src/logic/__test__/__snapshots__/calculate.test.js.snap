@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`calculate should handle "." button presses 1`] = `
+Object {
+  "next": "5.",
+  "operation": null,
+  "total": null,
+}
+`;
+
+exports[`calculate should handle "." button presses 2`] = `
+Object {
+  "next": "5.",
+  "operation": null,
+  "total": "10",
+}
+`;
+
+exports[`calculate should handle "." button presses 3`] = `
+Object {
+  "next": "5.2",
+  "operation": "+",
+  "total": "10",
+}
+`;
+
+exports[`calculate should handle number button presses 1`] = `
+Object {
+  "next": "5",
+  "total": null,
+}
+`;
+
+exports[`calculate should handle number button presses 2`] = `
+Object {
+  "next": "0",
+  "total": null,
+}
+`;
+
+exports[`calculate should handle number button presses 3`] = `
+Object {
+  "next": "53",
+  "operation": "+",
+  "total": "10",
+}
+`;
+
+exports[`calculate should return the initial state when "AC" is pressed 1`] = `
+Object {
+  "next": null,
+  "operation": null,
+  "total": null,
+}
+`;

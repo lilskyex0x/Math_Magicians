@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`operate should add two numbers 1`] = `"10"`;
+
+exports[`operate should divide two numbers 1`] = `"2"`;
+
+exports[`operate should find modulo of two numbers 1`] = `"0"`;
+
+exports[`operate should multiply two numbers 1`] = `"16"`;
+
+exports[`operate should subtract two numbers 1`] = `"3"`;
